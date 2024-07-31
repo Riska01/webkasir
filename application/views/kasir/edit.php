@@ -158,12 +158,13 @@
 
     <script>
         var ricePrices = {
-            'BR001': { 'name': 'Beras Ekonomis Rojolele 5 KG', 'price': 76000 },
+            'BR001': { 'name': 'Beras Ekonomis Rojolele 5 KG', 'price': 7600 },
             'BR002': { 'name': 'Beras Super Rojolele 5 KG', 'price': 95000 },
             'BR003': { 'name': 'Beras Rojolele Pulen 10 KG', 'price': 145000 },
             'BR004': { 'name': 'Beras Super Rojolele 10 KG', 'price': 180000 },
             'BR005': { 'name': 'Beras Super Rojolele 20 KG', 'price': 330000 },
-            'BR006': { 'name': 'Beras Super Rojolele 25 KG', 'price': 390000 }
+            'BR006': { 'name': 'Beras Super Rojolele 25 KG', 'price': 390000 },
+            'BR007': { 'name': 'Beras Super Rojolele 30 KG', 'price': 390000 }, 
         };
 
         function updateRiceDetails(selectElement) {
