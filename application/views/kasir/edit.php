@@ -132,17 +132,13 @@
                 <label>Kode Beras</label>
                 <select name="items[<?php echo $index; ?>][rice_code]" onchange="updateRiceDetails(this)">
                     <option value="">Pilih Kode Beras</option>
-                    <?php
-                    foreach($berases as $beras){
-                        echo "<option value='".$beras['id']."'". ($item->rice_code == $beras['id'] ? ' selected' : '') ."> ".$beras['text']."</option>";
-                    }
-                    ?>
-                    <!-- <option value="BR001" <?php echo $item->rice_code == 'BR001' ? 'selected' : ''; ?>>BR001 - Beras Ekonomis Rojolele 5 KG</option>
+                    
+                     <option value="BR001" <?php echo $item->rice_code == 'BR001' ? 'selected' : ''; ?>>BR001 - Beras Ekonomis Rojolele 5 KG</option>
                     <option value="BR002" <?php echo $item->rice_code == 'BR002' ? 'selected' : ''; ?>>BR002 - Beras Super Rojolele 5 KG</option>
                     <option value="BR003" <?php echo $item->rice_code == 'BR003' ? 'selected' : ''; ?>>BR003 - Beras Rojolele Pulen 10 KG</option>
                     <option value="BR004" <?php echo $item->rice_code == 'BR004' ? 'selected' : ''; ?>>BR004 - Beras Super Rojolele 10 KG</option>
                     <option value="BR005" <?php echo $item->rice_code == 'BR005' ? 'selected' : ''; ?>>BR005 - Beras Super Rojolele 20 KG</option>
-                    <option value="BR006" <?php echo $item->rice_code == 'BR006' ? 'selected' : ''; ?>>BR006 - Beras Super Rojolele 25 KG</option> -->
+                    <option value="BR006" <?php echo $item->rice_code == 'BR006' ? 'selected' : ''; ?>>BR006 - Beras Super Rojolele 25 KG</option>
                 </select>
                 <label>Nama Beras</label>
                 <input type="text" name="items[<?php echo $index; ?>][rice_name]" value="<?php echo $item->rice_name; ?>" readonly>
